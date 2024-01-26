@@ -1,0 +1,27 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+h1 {
+    border: 2px solid skyblue; 
+    padding: 10px; 
+    border-radius: 100px;
+    color: navy;
+    
+}
+
+h2, th {
+    color: navy;
+    
+}
+
+table {
+    border-spacing: 0;
+
+  }
+
+td {
+    padding: 10px;
+
+}
