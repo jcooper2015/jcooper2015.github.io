@@ -8,10 +8,12 @@ h1 {
     padding: 10px; 
     border-radius: 100px;
     color: navy;
+    text-align: center;
     
 }
 
 h2, th {
+    text-align: center;
     color: navy;
     
 }
@@ -25,3 +27,19 @@ td {
     padding: 10px;
 
 }
+
+h5, h6 {
+    text-align: center;
+}
+
+.container {
+    text-align: center; /* Center-align the child elements horizontally */
+}
+
+img {
+    display: inline-block; /* Make the image behave like an inline-block element */
+    max-width: 100%; /* Set the maximum width to 100% to ensure it doesn't exceed its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    max-height: 30vh; /* Set the maximum height to 80% of the viewport height (adjust as needed) */
+}
+
